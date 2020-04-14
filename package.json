@@ -5,7 +5,9 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build"
+    "build": "gatsby build",
+    "build:prod": "gatsby clean && gatsby build",
+    "publish": "git subtree push --prefix public origin master"
   },
   "dependencies": {
     "deepmerge": "^4.0.0",
