@@ -1,0 +1,19 @@
+{
+  "name": "siul_blog",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build"
+  },
+  "dependencies": {
+    "deepmerge": "^4.0.0",
+    "gatsby": "^2.13.24",
+    "gatsby-theme-blog": "^1.0.2",
+    "gatsby-theme-waves": "*",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "typography-theme-fairy-gates": "^0.16.19"
+  }
+}
